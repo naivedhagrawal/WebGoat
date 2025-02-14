@@ -4,5 +4,5 @@ securityscan(
     owaspdependency: true,
     semgrep: true,
     checkov: true,
-    detect-secrets: true
+    detect-secrets: true,
 )
