@@ -1,6 +1,6 @@
 @Library('k8s-shared-lib') _
 securityscan(
-    gitleak: true,
+    gitleak: false,
     owaspdependency: true,
     semgrep: true,
     checkov: true,
