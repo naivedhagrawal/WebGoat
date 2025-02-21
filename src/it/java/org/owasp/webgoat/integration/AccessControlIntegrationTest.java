@@ -1,3 +1,7 @@
+/*
+ * SPDX-FileCopyrightText: Copyright © 2020 WebGoat authors
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 package org.owasp.webgoat.integration;
 
 import io.restassured.RestAssured;
@@ -32,8 +36,8 @@ class AccessControlIntegrationTest extends IntegrationTest {
     // create user
     var userTemplate =
         """
-                {"username":"%s","password":"%s","admin": "true"}
-                """;
+        {"username":"%s","password":"%s","admin": "true"}
+        """;
     RestAssured.given()
         .when()
         .relaxedHTTPSValidation()
